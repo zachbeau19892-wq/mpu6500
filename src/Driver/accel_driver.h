@@ -6,9 +6,10 @@ namespace driver {
 
 class AccelGyro {
 public:
-    AccelGyro();
+    AccelGyro(TwoWire &i2c, uint8_t I2CAddress );
 
 private:
+
 
 };
 }
